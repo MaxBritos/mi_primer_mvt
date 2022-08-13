@@ -22,3 +22,6 @@ def crear_familiares(request):
     documento_texto = plantilla.render(contexto)
 
     return HttpResponse(documento_texto)
+
+
+    
